@@ -1,0 +1,123 @@
+body{
+    background-image: url("../photo/aa1.jpg");
+    background-color: #ffffff;
+    background-size: 1080px;
+    background-position-x: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -200px;
+    background-attachment: fixed;
+    margin:0;
+}
+
+div.author{
+    margin-left: 85.5%;
+    padding: 1px 16px;
+    background-color: rgba(255, 255, 255, 0.753);
+    position: fixed;
+    height: 10000px;
+    display: inline-block;
+}
+
+div.index{
+    margin-left:14%;
+    margin-right: 14%;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 1px 16px;
+    height: 5000px;
+    display: inline-block;
+}
+
+.dropbutton{
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    width: 14.5%;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    padding: 16px 32px;
+    font-size: 16px;
+}
+
+.dropdown{
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 14.5%;
+    box-shadow: 100% rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbutton{
+    display: block;
+    color:#ffffff;
+    background-color: #555;
+}
+
+.dropdown a:hover{
+    background-color: #555;
+}
+
+h1{
+    color: lightseagreen;
+    text-align:center;
+    font-size: 100px;
+}
+
+h2.index{
+    text-align: center;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 14.5%;
+    position: fixed;
+}
+        
+li a{
+    font-weight:bold;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+li a:hover:not(.active){
+    background-color: #555;
+    color: #ffffff;
+}
+
+li a.active{
+    color: #ffffff;
+    background-color: deepskyblue;
+}
+    
+p.author{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+p{
+    color: gray;
+    text-align: left;
+    font-size: 50px;
+    display: inline;
+}
